@@ -18,22 +18,8 @@ public class TicTacToe {
             printBoard(board);
              
               /*
-              {  Task 3: Loop through turns.
-                  if (X) turn {
-                     Task 4: call askUser(). 
-                     Task 5: populate the board using askUser's return value.
-                  } else {
-                      Task 4: call askUser(). 
-                      Task 5: populate the board using askUser's return value. Then, print it.
-                  }
-                Task 6 - Call the function.
-                   if return value == 3 {
-                     print: X wins and break the loop
-                  } else if return value == -3 {
-                     print: O wins and break the loop
-                  }
-
-              } 
+              Task 3: Loop through turns.
+                
               */
               for(int i=0;i<9;i++) {
               if ( i%2 == 0) {
